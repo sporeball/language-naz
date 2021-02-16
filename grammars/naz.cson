@@ -6,4 +6,28 @@ fileTypes: ['naz']
 
 scopes:
   'source_file': 'source.naz'
+
+  # arithmetic instructions are uncolored
+
+  # other instructions
+  'halt': 'support.class'
+  'negate': 'variable'
+  'output': 'entity.name.function'
+  'read': 'entity.name.function'
+
+  # opcodes
+  'opcode_0': 'constant.language'
+  'opcode_1': 'constant.language'
+  'opcode_2': 'constant.language'
+  'opcode_3': 'constant.language'
+
+  # constructs
+  'function': 'storage.type'
+  'variable': 'variable'
+  'condition': 'keyword.control'
+
+  # misc.
   'comment': 'comment.line'
+
+  # invalid group
+  'group_bad > comment': 'source.naz'
