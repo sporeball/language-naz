@@ -1,0 +1,9 @@
+name: 'naz'
+scopeName: 'source.naz'
+type: 'tree-sitter'
+parser: 'tree-sitter-naz'
+fileTypes: ['naz']
+
+scopes:
+  'source_file': 'source.naz'
+  'comment': 'comment.line'

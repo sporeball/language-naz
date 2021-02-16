@@ -1,0 +1,34 @@
+{
+  "name": "language-naz",
+  "version": "0.0.0",
+  "description": "naz language package for Atom",
+  "main": "index.js",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sporeball/language-naz.git"
+  },
+  "keywords": [
+    "atom",
+    "tree-sitter"
+  ],
+  "author": "sporeball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sporeball/language-naz/issues"
+  },
+  "homepage": "https://github.com/sporeball/language-naz#readme",
+  "dependencies": {
+    "tree-sitter-naz": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron": "^6.1.12",
+    "electron-rebuild": "^2.3.5"
+  }
+}
