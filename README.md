@@ -1,2 +1,2 @@
 # language-naz
-naz language package for Atom
+adds syntax highlighting to [naz](https://github.com/sporeball/naz) files in Atom.
