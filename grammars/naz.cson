@@ -4,6 +4,9 @@ type: 'tree-sitter'
 parser: 'tree-sitter-naz'
 fileTypes: ['naz']
 
+comments:
+  start: '# '
+
 scopes:
   'source_file': 'source.naz'
 
